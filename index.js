@@ -7,7 +7,7 @@ const app = express();
 // SOme basic route 
 app.get('/', (req, res) => {
     // Send response
-    res.json({ message: 'coucou' });
+    res.json({ message: 'coucou', title: 'Titre' });
 });
 
 //Start server.
